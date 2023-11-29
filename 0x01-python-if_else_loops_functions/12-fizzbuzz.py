@@ -10,4 +10,5 @@ def fizzbuzz():
         elif i % 15 == 0:
             print("FizzBuzz", end=' ')
             continue
-        print(i, end=' ')
+        else:
+            print(i, end=' ')
