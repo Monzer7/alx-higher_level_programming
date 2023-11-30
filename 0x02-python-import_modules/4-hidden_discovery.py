@@ -1,7 +1,8 @@
-#!/usr/bin/pythone3
+#!/usr/bin/python3
 
-if __name == "__maim__":
+if __name__ == "__main__":
     import hidden_4
-
     names = dir(hidden_4)
-    print(names)
+    for name in names:
+        if name[:2] != "__":
+            print(name)
