@@ -5,8 +5,6 @@ def no_c(my_string):
         my_string = my_string[1:]
     for chr in my_string:
         if chr == 'C' or chr == 'c':
-           my_string = my_string[:i] + my_string[i+1:]
-        i+=1
+            my_string = my_string[:i] + my_string[i+1:]
+        i += 1
     return my_string
-    
-    
