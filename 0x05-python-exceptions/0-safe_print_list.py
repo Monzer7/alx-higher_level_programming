@@ -3,8 +3,8 @@
 def safe_print_list(my_list=[], x=0):
     m = 0
     try:
-        while m < x :
-            print("{}".format(my_list[m]),end="")
+        while m < x:
+            print("{}".format(my_list[m]), end="")
             m = m + 1
         print()
     except IndexError:
